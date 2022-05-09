@@ -26,8 +26,3 @@ console.log (typeof address);
 
 console.log (typeof totalpresent);
 
-//assignment 1
-
-let c = studentName + studentRollNum;
-console.log (typeof c);
-
