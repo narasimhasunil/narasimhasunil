@@ -6,9 +6,9 @@
 // 5. undefined
 
 
-const studentRollNum = [154, 173, 165, 158, 162, 168];
+const studentRollNum = 154;
 
-const studentName = ['James, ben, sam, tom, jerry, robert'];
+const studentName = 'James'
 
 const isPresent = true;
 
@@ -16,5 +16,5 @@ const totalpresent = null;
 
 const address = undefined;
 
-let result;
 console.log(typeof studentName);
+
