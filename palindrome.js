@@ -9,3 +9,13 @@ const name1 = 'tenet';
 const name1Split = name1.split('');
 const name1Reversed = name1Split.reverse();
 const joinReversedName = name1Reversed.join('');
+
+const finalname = joinReversedName;
+
+console.log(finalname);
+
+if (name1 === finalname) {
+    console.log(`Giving string ${name1} is a palindrome`);
+} else {
+    console.log('Given string ' + name1 + 'is not a palindrome');
+}
