@@ -1,4 +1,4 @@
-const str = 'ramagundam';
+const str = 'msDhoni';
 
 const res = str.slice(2,5); // ending index position wil be excluded
 console.log(res);
