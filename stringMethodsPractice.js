@@ -19,12 +19,15 @@ console.log(samp1.toUpperCase());
 //number to string conversion
 
 const samp2 = 123456;
-samp3 = samp2.toString();
+const samp3 = samp2.toString();
 
 console.log(samp3, typeof samp3);
 
 //trim operation
 
-samp4 = '     Mahesh Babu    ';
-console.log(samp4.trim());
+const samp4 = '     Mahesh Babu    ';
+
+const samp5 = samp4.trim();
+console.log(samp5.length);
+
 
