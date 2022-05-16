@@ -1,4 +1,4 @@
-sum (2, 3, 4, 5);
+sum (34, 52, 153, 76, 89);
 
 function sum (...arg) {
     console.log(arg);
