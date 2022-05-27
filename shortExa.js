@@ -3,8 +3,17 @@
 // 0, 2, -2, -7, -4
 // 2, 0, -2, -4, -7
 
-const arry1 = [8, 6, 10, 15, 12]
+const arry1 = [8, 6, 10, 15, 12];
     
-function exam (a,b);
+let arry = [arry1[0]-arry1[0], arry1[0] - arry1[1], arry1[0]-arry1[2], arry1[0]- arry1[3], arry1[0]-arry1[4]];
 
-console.log 
+console.log(arry);
+
+let aLen = arry.length;
+
+let arry2 = [];
+for (let i = 0; i < aLen; i++) {
+  arry2 = i + arry[i] ;
+}
+console.log(arry2);
+
