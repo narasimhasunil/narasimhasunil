@@ -4,7 +4,7 @@ const sampleTable = [
     { firstname : 'seshu', lastname : 'sai'}
 ];
 for (i= 0;i< sampleTable.length;i=i+1){
-    sampleTable[i].workexp = i;
+    sampleTable[i].workexp = 2;
 }
 console.table(sampleTable);
 
