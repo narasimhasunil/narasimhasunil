@@ -1,13 +1,9 @@
 // program for a simple calculator
 
 
-const number1 = (('Enter first number: '));
-const operator = parseFloat('Enter operator ( either +, -, * or / ): ');
+const number1 = 3;
 const number2 = parseFloat(('Enter second number: '));
 
-console.log(number2);
-console.log(operator);
-console.log(number2);
 
 let result;
 
