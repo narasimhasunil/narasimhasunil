@@ -8,7 +8,7 @@
 
 const studentRollNum = 154;
 
-const studentName = 'James'
+const studentName = 'James';
 
 const isPresent = true;
 
