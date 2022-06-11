@@ -4,4 +4,3 @@ const numberThree = 3;
 let result;
 result = numberOne + numberTwo + numberThree;
 console.log(result);
-
