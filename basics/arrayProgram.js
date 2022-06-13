@@ -10,7 +10,7 @@ const namesOfPlayers = ['rohit','kishan','sky','tilak','david','pollard'];
 
 console.log(namesOfPlayers [4]);
 
-namesOfPlayers[2] = 'tSingh';
+namesOfPlaye[2] = 'tSingh';
 console.log(namesOfPlayers);
 
 const namesOfPlayers2 = ['sams', 'ashwin', 'kartikeya', 'bumrah', 'meredith'];

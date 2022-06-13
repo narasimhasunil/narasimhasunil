@@ -8,23 +8,23 @@ const e = undefined;
 
 //1.combination of number and string
 
-let f = a + b;
-console.log (typeof f); //ans = string
+    let f = a + b;
+    console.log (typeof f); //ans = string
 
 //2. combination of number and boolean
 
-let g = a + c;
-console.log (typeof g); //ans = number
+    let g = a + c;
+    console.log (typeof g); //ans = number
 
 //3. combination of number and null
 
-let h = a + d;
-console.log(typeof h); //ans = number
+    let h = a + d;
+    console.log(typeof h); //ans = number
 
 //4. combination of number and undefined
 
-let i = a + e;
-console.log(typeof i); //ans = number
+    let i = a + e;
+    console.log(typeof i); //ans = number
 
 //5. combination of string and boolean
 
