@@ -8,6 +8,6 @@ class StudentDetails {
     }
 }
 
-export {StudentDetails};
+module.exports = {StudentDetails};
 
 
