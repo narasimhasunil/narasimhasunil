@@ -10,7 +10,7 @@ console.log(samp1.substring(5,13));
 
 //replace operation
 
-console.log(samp1.replace('Paata','Dance'));
+console.log(samp1.replace('Paata','Aata'));
 
 //uppercase operation
 

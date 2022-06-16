@@ -26,3 +26,8 @@ if (name1 === finalname) {
 }
 
 console.log(typeof finalname);
+
+console.log("given string ${}" + name1 + ' is a palindrime');
+
+console.log(`giving ${name1} is a palindrome`);
+
