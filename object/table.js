@@ -8,7 +8,6 @@ for (i= 0;i< sampleTable.length;i=i+1){
 }
 console.table(sampleTable);
 
-
 //sampleTable[0].workEx = 2
 //sampleTable[1].workEx = 4;
 
