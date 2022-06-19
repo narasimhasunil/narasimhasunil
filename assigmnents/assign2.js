@@ -5,12 +5,12 @@ let rep = str.replace('prabhavathi','kalavathi');
 console.log(rep);
 
 
-rep = 'prabhavathi';
-console.log(rep);
+let rep1 = 'prabhavathi';
+console.log(rep1);
 
-let res1 = rep.slice(7);
-console.log(res1);
+let rep2 = rep1.slice(7);
+console.log(rep2);
 
-const rep2 = 'kalav';
+const rep3 = 'kalav';
 
-console.log(res2 = rep2.concat(res1));
+console.log(res3 = rep3.concat(rep2));
