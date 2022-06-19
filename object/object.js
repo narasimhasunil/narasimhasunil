@@ -5,7 +5,7 @@ const employeeData = {
     height: 173,
 }
 
-//console.log(employeeData);
+console.log(employeeData.firstname);
 
 employeeData.workex = 3;
 
@@ -16,3 +16,4 @@ employeeData.workex = 3;
 delete employeeData.firstname;
 
 console.log(employeeData);
+
