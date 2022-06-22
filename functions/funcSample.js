@@ -5,8 +5,7 @@ evenOdd(sumRes1);
 sumRes2 = sumOfNum (2, 8);
 evenOdd(sumRes2);
 
-function sumOfNum (x, y) {
-   
+function sumOfNum (x, y) { 
     let sum = x + y;
     return sum;
 }

@@ -19,10 +19,6 @@ class Sample {
         return `${this.name} ${this.age}`
     }
 
-    fullName2 () {
-        return `${this.name} ${this.age}`
-    }
-
     static staticMethod() {
         return 'static method has been called.';
     }
@@ -33,4 +29,4 @@ const obj2 = new Sample('shyam', 229);
 console.log(obj.fullName());
 console.log(obj2.fullName());
 
-console.log(Sample.staticMethod());
+//console.log(Sample.staticMethod());

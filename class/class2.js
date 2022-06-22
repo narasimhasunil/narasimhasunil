@@ -9,5 +9,3 @@ class StudentDetails {
 }
 
 module.exports = {StudentDetails};
-
-
