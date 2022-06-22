@@ -6,6 +6,6 @@ console.log(xyz);
 
 const abc2 = [23, 34, 56, 78, 99];
 
-const rs = value => value > 100;
+const rs = value => value > 70;
 
 console.log(abc2.findIndex(rs));

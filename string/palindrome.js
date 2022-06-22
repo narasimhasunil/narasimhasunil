@@ -1,4 +1,4 @@
-const name1 = 'tenet';
+const name1 = 'tenets';
 
 //to find out the given variable is palindrome or not
 //1st split the string
@@ -27,7 +27,7 @@ if (name1 === finalname) {
 
 console.log(typeof finalname);
 
-console.log("given string ${}" + name1 + ' is a palindrime');
+console.log("given string" + name1 + ' is a palindrime');
 
 console.log(`giving ${name1} is a palindrome`);
 

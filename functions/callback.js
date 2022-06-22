@@ -1,11 +1,11 @@
-function sample (a, b, callback) {
-    callback (b-a);
+function sample (a, b, call) {
+    call (a+b);
 }
 
-sample (9, 6, function(res) {
+sample (7, 6, function(res) { //call = function(res)
     if (res %3 === 0){
-        console.log('multiple of 3')
+        console.log('given sum ' +res+ ' is multiple of 3');
     } else {
-        console.log('not a multiple of 3')
+        console.log('given sum ' + res + ' is not a multiple of 3');
     }
 })

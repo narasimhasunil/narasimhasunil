@@ -11,7 +11,6 @@ function sumOfNum (x, y) {
     return sum;
 }
 
-
 function evenOdd (sumValue) {
     if (sumValue %2 === 0) {
         console.log(`sum of the given numbers is even`);
