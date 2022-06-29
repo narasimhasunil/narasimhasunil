@@ -11,16 +11,16 @@ app.get('/', (_req, res) => {
    });
 
 app.get('/computers', (req, res) => {
-   console.log(req, query);
-   res.status(400).send('I am in computers section')
+   console.log(req.query);
+   res.status(200).send('I am in computers section')
 });
    app.get('/computers/:company', (req, res) => {
       console.log(req.params);
-      res.status(400).send('I am in computers brand params');
+      res.status(200).send('I am in computers brand params');
    });
    app.get('/computers/:company/:model', (req, res) => {
       console.log(req.params);
-      res.status(400).send('I am in computers brand and modle params');
+      res.status(200).send('I am in computers brand and modle params');
    });
 
 app.get('/mobiles', (req, res) => {
@@ -63,7 +63,7 @@ app.get('/footware', (req, res) => {
    });
 
 app.get('/tabs', (req, res) => {
-   console.log(req, query);
+   console.log(req.params);
    res.status(400).send('I am in tabs section');
  });
    app.get('/tabs/:company', (req, res) => {
@@ -74,5 +74,5 @@ app.get('/tabs', (req, res) => {
       console.log(req.params);
       res.status(400).send('I am in tabs brands and model params');
    });
-   
+
 app.listen(3003);
