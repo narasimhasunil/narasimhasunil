@@ -21,6 +21,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', indexRouter);
 app.get('/users', usersRouter);
+app.get('/path1', indexRouter);
+app.get('/users/path2', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
