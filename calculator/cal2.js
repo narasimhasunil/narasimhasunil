@@ -4,6 +4,7 @@ const firstInput = arguements[2];
 const secondInput = arguements[3];
 const oper = arguements[4];
 console.log(oper);
+console.log(process.argv);
 let res;
 
 switch(oper) {
