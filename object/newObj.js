@@ -9,4 +9,6 @@ newOb.subject = 'Maths'
 
 delete newOb.hieght
 
+newOb.name = 'mahesh'
+
 console.log(newOb);
