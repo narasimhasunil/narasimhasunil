@@ -1,5 +1,5 @@
 function example (x,y, call) {
-    call (x - y);
+    call (x*y);
 }
 
 example (257, 50, (res1) => {

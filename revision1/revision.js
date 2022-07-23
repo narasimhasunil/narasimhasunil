@@ -223,7 +223,7 @@ console.log(res2);
 function fun1 ( a, b, res) {
     res (a*b);
 }
-fun1(76, 67, res => {
+fun1(76, 67, (res) => {
     if (res%2 === 0) {
         console.log('it is a prime number');
     } else {
@@ -276,3 +276,13 @@ let student1 = new Details('mounish','krishna');
 
 console.log(student1.fullname());
 console.log(student1);
+
+// write a programe to identify an element in an object
+{
+let bikes = {brand:'Honda', model:'CBR', year:'2017'}
+let text = '';
+for( let x in bikes) {
+    text += bikes[x]+ ' ';
+}
+console.log(text);
+}
